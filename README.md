@@ -22,9 +22,11 @@ Create and activate a virtual environment, then install dependencies:
 
 
 
-```bash
+```powershell
 
 python -m venv .venv
+
+.\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
 
